@@ -4,11 +4,12 @@ import com.example.splitwise.dtos.RegisterUserRequestDto;
 import com.example.splitwise.dtos.RegisterUserResponseDto;
 import com.example.splitwise.models.User;
 import com.example.splitwise.services.UserService;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.inject.Inject;
 
-@RestController
+@Controller
 public class UserController {
 
     @Inject
